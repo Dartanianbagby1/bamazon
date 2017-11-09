@@ -11,30 +11,30 @@ CREATE TABLE products(
 
 	);
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'MMA SHORTS','FIGHT_SHOP',25.00, 50);
+VALUES(10,'MMA SHORTS','FIGHT_SHOP',25.00, 50);
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'fishing pole','SPORT_SHOP',15.00, 50);
+VALUES(9,'fishing pole','SPORT_SHOP',15.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,' walking shorts','MENS WEAR',35.00, 50);
+VALUES(8,' walking shorts','MENS WEAR',35.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'wrist watch','JEWELRY',75.00, 50);
+VALUES(7,'wrist watch','JEWELRY',75.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'flip flops','SHOES',25.00, 50);
+VALUES(6,'flip flops','SHOES',25.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'gummy worms','CANDY_SHOP',2.00, 50);
+VALUES(5,'gummy worms','CANDY_SHOP',2.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'twix','CANDY_SHOP',2.00, 50);
+VALUES(4,'twix','CANDY_SHOP',2.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'rubber duck','PROGRMMING_SHOP',50.00, 50);
+VALUES(3,'rubber duck','PROGRMMING_SHOP',50.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
-VALUES(1,'note book','SCHOOL_SUPPLIES',5.00, 50);
+VALUES(2,'note book','SCHOOL_SUPPLIES',5.00, 50);
 
 INSERT INTO bamazon_db( product_id, product_name, department_name, price, stock_quantity)
 VALUES(1,'pen','SCHOOL_SUPPLIES',2.00, 50);

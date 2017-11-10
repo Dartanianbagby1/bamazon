@@ -18,6 +18,19 @@ connection.connect(function(err) {
   queryAllProducts();
   connection.end();
 });
+inquirer.promt([{
+  name: 'product_id',
+  message: 'What item would you like to purchase?'},
+  {
+    name:'quantity',
+    message: 'How many would you like?'
+  
+}]).then (function(answer){
+  connection.query('SELECT * FROM products WHERE ?',{product_id:answer.product_id, quantity:answer.quantity}),function(err, res){
+    if(err)throw err;
+  }
+
+});
 function queryAllProducts() {
   connection.query("SELECT * FROM products", function(err, res) {
     console.log("-----------------------------------");

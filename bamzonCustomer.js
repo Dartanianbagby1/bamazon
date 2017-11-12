@@ -17,11 +17,8 @@ connection.connect(function(err) {
   queryAllProducts();
 });
 inquirer.prompt([{
-<<<<<<< HEAD
+
   name: 'product_name',
-=======
-  name: 'product_id',
->>>>>>> 4ed7e48f6378a125f47c1b9d0d3d7ff27385e14e
   message: 'What item would you like to purchase?'},
   {
     name:'quantity',
